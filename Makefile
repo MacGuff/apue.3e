@@ -19,7 +19,7 @@ LIBAPUE=$(ROOT)/lib/libapue.a
 	stdio termios threadctl threads printer exercises
 DIRS = lib ch1 ch3 ch4
 
-ifeq ($(INCLUDEED), no))
+ifeq ($(INCLUDEED), no)
 all:
 	for i in $(DIRS); do \
 		(cd $$i && echo "making $$i" && $(MAKE) ) || exit 1; \
