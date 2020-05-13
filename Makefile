@@ -17,7 +17,7 @@ LIBAPUE=$(ROOT)/lib/libapue.a
 #DIRS = lib intro sockets advio daemons datafiles db environ \
 	fileio filedir ipc1 ipc2 proc pty relation signals standards \
 	stdio termios threadctl threads printer exercises
-DIRS = lib ch1 ch3 ch4
+DIRS = lib ch1 ch3 ch4 ch5
 
 ifeq ($(INCLUDEED), no)
 all:
